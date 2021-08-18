@@ -1,0 +1,505 @@
+/*sub page 1*/
+:root{
+    --main : #007AC2;
+    --sub1 : #0166A1;
+    --sub2 : #EFEFEF;
+}
+
+/*sub1(회사소개)*/
+
+#Sub1_contents{
+   min-width: 1500px;   
+}
+
+/*sub1_ breadCrumb*/
+#Sub1_contents .breadCrumb-wrapper {
+    position: relative;
+    width: 100%;
+    height: 490px;
+}
+#Sub1_contents .breadCrumb-wrapper .top-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: contain;
+}
+#Sub1_contents .breadCrumb-wrapper .top-image img {
+    width: 100%;
+    height: 490px;
+}
+
+#Sub1_contents .breadCrumb{
+    position: absolute;
+    width: 1500px;
+    height: 340px;
+    top: 180px;
+    left: 20%;
+}
+
+#Sub1_contents .breadCrumb h2 {
+    position: relative;
+    font-size: 15px;
+    top: 80px;
+    left: 4px;
+    color : #fff;
+}
+
+#Sub1_contents .breadCrumb h3{
+    position: relative;
+    font-size: 40px;
+    color : #fff;
+}
+
+/*sub1_SUB_GNB*/
+
+#Sub1_contents .container{
+    margin: 0 auto;
+    width: 1500px;
+    text-align: center;
+}
+
+#Sub1_contents .container .Sub_GNB{
+    width: 1500px;
+    height: 61px;
+}
+
+#Sub1_contents .container .Sub_GNB li{
+    width: 240px;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 24px;
+    margin-left: 38px;
+    background-color: #fff;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    transition-duration: 0.4s;
+}
+
+#Sub1_contents .container  .Sub_GNB > li.active {
+    border-bottom: 3px solid var(--main);    
+    padding-bottom: 22px;
+    background-color: var(--sub1);
+}
+
+#Sub1_contents .container  .Sub_GNB > li.active a{
+    color: #fff;
+}
+
+#Sub1_contents .container .Sub_GNB li:hover{
+   background-color: var(--sub1);
+}
+
+#Sub1_contents .container .Sub_GNB li:hover a {
+    color: #fff;
+}
+
+/*Sub1_CompanyInfo*/
+.CompanyWrapper{
+    width: 100%;
+    padding-top: 60px;
+    display: block;
+    margin : 0 auto;
+    margin-bottom: 40px;
+}
+#Sub1_contents .CompanyIntro h2, #Sub1_contents .Video h2, #Sub1_contents .Value h2 {
+    float:left;
+    color :#000;
+    font-size: 30px;
+    border-left: 3px solid var(--main);
+    padding-left: 10px;
+    margin-top: 40px;
+}
+
+#Sub1_contents p{
+    font-size: 24px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.Video {
+    position: relative;
+    top: 40px;
+}
+
+.Video iframe {
+    margin-top : 70px;
+    margin-bottom: 115px;
+}
+
+.Value{
+    position: relative;
+    height: 50vh;
+}
+
+.Value .col {
+    display: inline-block;
+    width: 310px;
+    height: 310px;
+    vertical-align: text-bottom;
+    text-align: center;
+    padding-top: 50px;
+    padding-left : 10px;
+}
+
+.Value .col img{
+    width: 120px;
+}
+
+.Value .col h3 {
+    font-size : 20px;
+    color : var(--main);
+    padding-top: 20px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.Value .col h4{
+    font-size:  16px;
+    line-height: 30px;
+}
+
+/*Sub2(오시는 길) */
+#Location {
+    width: 1500px;
+    margin: 0 auto;
+    position: relative;
+}
+#Location .container .map p {
+    text-align: center;
+}
+#Location .container .spot {
+    text-align: left;
+}
+#Location .container .Spot h2 {
+    font-size: 30px;
+    border-left: 3px solid var(--main);
+    margin-top: 40px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+#Location .container .Spot h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+#Location .container .map-detail {
+    display: flex;    
+}
+#Location .container .Spot p {
+    font-size: 16px;
+    margin-top: 15px;
+}
+#Location .container .map-detail {
+    display: flex;
+    margin-left: 100px;
+}
+#Location .container .map-detail .Spot {
+    margin-right: 300px;
+}
+#Location .container .map-detail .Spot .hanam {
+    margin-right: 100px;
+}
+#Location .container .map-detail .transport .how{
+    font-size: 24px;
+}
+#Location .container .map-detail .transport p {
+    font-size: 16px;
+}
+#Location .container .map-detail .line9 {
+    background: #BD9A31;
+    padding: 4px 12px 4px 12px;
+    color: #fff;
+}
+#Location .container .map-detail .line2 {
+    background: #10AA18;
+    padding: 4px 12px 4px 12px;
+    color: #fff;
+}
+#Location .container .map-detail .line5 {
+    background: #874d9f;
+    padding: 4px 12px 4px 12px;
+    color: #fff;
+}
+#Location .container .map-detail .Subway {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+#Location .container .map-detail .Subway p {
+    margin-bottom: 20px;
+}
+#Location .container .map-detail .Bus {
+    margin-bottom: 40px;
+}
+/*Sub3(제품색인) */
+
+#Sub3 #Sub1_contents .Sub_GNB li{
+    position: relative;
+    width: 400px; 
+}
+
+#Search {
+    position: relative;
+    width: 1500px;
+}
+
+.SearchBox{
+    width: 100%;
+    height: 144px;
+}
+
+.SearchBar{
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.SearchBar li:hover {
+    background: var(--main);
+}
+.SearchBar li:hover a {    
+    color: #fff;
+}
+
+.SearchBar li {
+    width: 59px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid #000;
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: center;
+    float: left;
+}
+
+.InputBox {
+    position: relative;
+    width: 400px;
+}
+
+.SearchButton{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.InputBox img {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 5px;
+    transform: translateX(360px);
+}
+
+.Tabpanel{
+    width: 100%;
+    height: 43px;
+    text-align: center;
+    padding-left: 150px;
+}
+
+.Tabpanel ul li {
+   width: 200px ;
+   height: 43px;
+   float: left;
+   padding-top: 12px;
+   border-bottom: 3px solid var(--sub2);
+}
+
+.Tabpanel ul li.active{
+    border-bottom: 3px solid var(--main);
+    padding-bottom: 30px;
+}
+
+.ProductLayout{
+    width : 100%;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box{
+    width: 400px;
+    padding: 25px;
+    margin-top: 55px;
+}
+
+.box img {
+    width: 350px;
+}
+
+.box .category{
+    width: 90px;
+    height: 18px;
+    border-left: 3px solid var(--main);
+    background-color: var(--sub2);
+    padding-right: 40px;
+    font-size: 14px;
+}
+
+.box h3{
+    font-size: 22px;
+    padding-top: 12px;
+    padding-bottom: 24px;
+    text-align: left;
+}
+.box p {
+    text-align: left;
+}
+
+.btn{
+    width: 320px;
+    height: 40px;
+    border-radius: 20px ;
+    padding-top: 10px;
+    background-color: var(--main);
+}
+.box .btn {
+    margin: 0 auto;
+}
+.box .btn > a {
+    color: #fff;    
+}
+.btn a {
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: var(--main);
+    border: 2px solid var(--main);
+}
+.btn:hover a {
+    color: var(--main);
+}
+
+.more_product {
+    font-size: 25px;
+    margin-bottom: 90px;
+}
+
+
+
+/*Sub 4*/
+
+#Sub4 #Sub1_contents .breadCrumb h3{
+    position: relative;
+    font-size: 40px;
+}
+#Sub4 #Sub1_contents .Sub_GNB li{
+    position: relative;
+    width: 400px;    
+
+}
+
+#Sub_Product .wrapper{
+    position: relative;
+    width: 100%;
+    border-bottom: 2px dotted #000;
+}
+
+#Sub_Product .wrapper h2{
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+#Sub_Product .wrapper img{
+    position: relative;
+    width: 472px;
+    top: 100px;
+    left: -160px;
+}
+
+#Sub_Product .category{
+    position: relative;
+    bottom: 35px;
+    left: 90px;
+    width: 91px;
+    height: 18px;
+    border-left: 3px solid var(--main);
+    background-color: var(--sub2);
+    padding-right: 40px;
+    font-size: 14px;
+}
+
+h4{ 
+    text-align: center;
+    font-size: 40px;
+}
+
+.wrapper h5{
+    font-size :40px;
+}
+
+#Sub_Product table.container {
+    position: relative;
+    bottom: 120px;
+    left: 400px;
+    width: 45%;
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: center;
+    line-height: 1.5;
+    border-top: 2px solid #000;
+    margin-top: 20px;
+  }
+
+#Sub_Product table.container th {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #444;
+    border-bottom: 1px dotted #444;
+    padding-top: 10px;
+  }
+  
+#Sub_Product table.container td {
+    /* width: 600px; */
+    border-bottom: 1px dotted #000;;
+    /* margin-left: 135px; */
+    text-align: left;
+    padding-left: 130px;
+ }
+
+ .BottomEffection {
+     position: relative;
+     width:100%;
+     height: auto;
+     margin-bottom: 50px;
+    }
+
+ .BottomEffection > h4{
+     float:left;
+     padding-top: 10px;
+     padding-left: 25px;
+     font-size : 16px;
+    }
+
+
+.BottomEffection .textwrap{
+    height:  156px;
+}    
+
+.BottomEffection .textwrap dl{
+    font-size :16px;
+    text-align: left;
+    text-indent: 164px;
+    padding-top: 10px;
+    padding-left: 120px;
+    line-height: 20px;
+}
+
+#Sub4 .btn{
+    text-align: center;
+    border-radius: 20px ;
+    border : 2px solid var(--main);
+    background-color: #fff;;
+    margin-top: 60px;
+    margin-left: 600px;
+}
+.btn a{
+    color: #000;
+    text-align: center;
+}
